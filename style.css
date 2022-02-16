@@ -1,0 +1,54 @@
+
+h1 {
+     text-align: center;
+     color: orange;
+}
+.font-size{
+    font-size: 80px;
+}
+.image{
+    width: 600px;
+}
+.color{
+    color: green;
+}
+.color-2{
+    color: red;
+}
+.display-flex{
+    display: flex;
+}
+.text-size{
+    font-size: 2xl;
+}
+ .margin-top{
+      
+     margin-left: 10px;
+ }
+  .margin-left{
+      margin-left: 30px;
+  }
+  
+ 
+ .center{
+     margin-left: 90px;
+     border-radius: 5px;
+     border: none;
+     background-color: cornflowerblue;
+     color: white;
+     width: 100px;
+ }
+ .tex{
+     width: 100px;
+     background-color: pink;
+     border: none;
+     border-radius: 4px;
+ }
+.tex-save{
+     width: 100px;
+     border: none;
+     background-color: cornflowerblue;
+     border-radius: 5px;
+     color: white;
+ }
+ 
