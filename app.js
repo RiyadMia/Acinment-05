@@ -7,4 +7,13 @@ function myIncome() {
     document.getElementById('balance').innerHTML = salare - getResult;
 };
 
+// savaing amount
+
+function myIncomeSave() {
+    const salare = parseInt(document.getElementById('salare').value);
+    const save = salare / 100;
+    const percantis = parseInt(document.getElementById('percantis').value);
+    document.getElementById('save-amount').innerHTML = save * percantis;
+}
+
 

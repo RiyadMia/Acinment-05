@@ -18,13 +18,13 @@
     </header>
     <main>
         <section class="cointinear">
-            <div class="display-flex">
+            <div class="display-flex , g-5">
                 <div>
                     <img class="image" src="images/taka.png" alt="">
                 </div>
 
-                <div class="md-1">
-                    <form action="">
+                <div class="bg-color">
+                    <form>
                         <h1 class="color">Income</h1>
                         <div class="display-flex">
                             <div>
@@ -57,15 +57,20 @@
                             </div>
                         </div>
                         <input id="total" class="center" type="button" value="Calculate" onclick="return myIncome()">
-                        <h3>Total Expenses : <span id="result"></span> </h3>
+                        <h3>Total Expenses : <span id="result">5500</span> </h3>
                         <h3>Balance: <span id="balance">4500</span></h3>
-                        <p> save : <button class="tex"> 20 </button> % <input class="tex-save" type="button"
-                                value="save"> </p>
-                        <h3>Saving Amount : 2000 </h3>
+                        <p> save : <input id="percantis" class="tex" type="20"> % <input id="incomeSave"
+                                class="tex-save" type="button" value="save" onclick="return myIncomeSave()">
+                        </p>
+                        <h3>Saving Amount : <span id="save-amount"> 2000</span> </h3>
                         <h3>Remaining Balance : 2500 </h3>
 
                     </form>
                 </div>
+            </div>
+            <div class="enoght">
+                <p id="enoght-money" class="notify">❌ your don't
+                    enoght money, Please try again</p>
             </div>
 
         </section>
